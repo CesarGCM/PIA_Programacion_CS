@@ -1,0 +1,6 @@
+{
+	"user":"usuario",
+	"pass": "contrasena",
+	"addressee": "correo de destino",
+	"server": "smtp.office365.com:587"
+}
