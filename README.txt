@@ -1,5 +1,5 @@
 Name: PIA_programacion_cs
-Author name(s): Cesar Giovani, Johan Uvalle, Karla Rodr
+Author name(s): Cesar Giovani, Johan Uvalle, Karla Rodrigez
 Release date: 8/11/20
 Language: Es
 GitHub repository: "Link"
