@@ -268,6 +268,7 @@ if __name__ == '__main__':
                 soup = BeautifulSoup(link.text, 'html.parser')
                 error_value = img_downloader(soup)
                 error_value = print_meta(key)
+                os.chdir("..")
             else:
                 logging.info("Error: La pagina no permite descargar archivos. Status:  %s\n" % str(link.status_code))
 
@@ -276,7 +277,6 @@ if __name__ == '__main__':
                 "---No se generaron errores---"
             )
 
-        os.chdir("..")
         if key_validator != "Entregado":
             logging.info("El servidor no recibió la clave")
 
